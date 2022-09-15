@@ -1,0 +1,32 @@
+save_path=saved/short
+command_line_args=<new_nural_network.train_config.TrainConfig object at 0x104e22cd0>
+type=nn
+hidden_units=160
+init_weights=0
+alpha=0.1
+lamda=0.9
+n_episodes=1500000
+save_step=10000
+start_episode=480000
+name_experiment=short_
+env=backgammon-v1
+restored_model=saved/short/short__20220523_1201_23_805202_480000.tar
+seed=123
+eligibility=True
+optimizer=None
+modules=[TDGammon(
+  (hidden): Sequential(
+    (0): Linear(in_features=198, out_features=160, bias=True)
+    (1): Sigmoid()
+  )
+  (output): Sequential(
+    (0): Linear(in_features=160, out_features=1, bias=True)
+    (1): Sigmoid()
+  )
+), Sequential(
+  (0): Linear(in_features=198, out_features=160, bias=True)
+  (1): Sigmoid()
+), Linear(in_features=198, out_features=160, bias=True), Sigmoid(), Sequential(
+  (0): Linear(in_features=160, out_features=1, bias=True)
+  (1): Sigmoid()
+), Linear(in_features=160, out_features=1, bias=True), Sigmoid()]

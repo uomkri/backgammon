@@ -1,0 +1,1 @@
+python3 new_nural_network/main.py train --save_path ./saved/new_exps --save_step 10000 --episodes 100000 --name exp1 --type nn --lr 0.1 --hidden_units 40

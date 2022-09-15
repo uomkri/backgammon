@@ -1,0 +1,17 @@
+/venv/
+/venv
+/api/__pycache__
+/api/actions/__pycache__
+/api/utils/__pycache__
+/gym_backgammon/__pycache__
+/gym_backgammon/envs/__pycache__
+/.idea
+/.idea/
+/.vscode
+/.vscode/
+/__pycache__/
+/__pycache__
+/new_nural_network/games_data/khachapuri
+/new_nural_network/games_data/khachapuri/
+new_nural_network/games_data/khachapuri
+new_nural_network/games_data/khachapuri/
